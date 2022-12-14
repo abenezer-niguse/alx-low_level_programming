@@ -1,12 +1,22 @@
 #include "main.h"
 
 /**
- * _islower - return func
- *
+ *print_alphabet_x10 - print alphabet
  * Return: 0 or 1 b/c not void
  */
 
-int _islower(int c)
+int print_alphabet_x10(void)
 {
-	return (c > = 97 && c < = 122);
-}	
+	char c;
+	int i = 0;
+
+	while (i <= 9)
+	{
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
+		_putchar('\n');
+		i++;
+	}
+}
