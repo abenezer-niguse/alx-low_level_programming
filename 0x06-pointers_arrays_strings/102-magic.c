@@ -1,8 +1,9 @@
-#include <stdio>
+#include <stdio.h>
 /**
- * main - function
- *Return: 0
- * /
+ *main - function
+ *
+ * Return: 0
+ */
 
 int main(void)
 {
@@ -12,12 +13,6 @@ int main(void)
 
 	a[2] = 1024;
 	p = &n;
-	/**
-	 * write code line
-	 * not allowed to use a
-	 * not modify p
-	 * only one ststement
-	 */
 	*(p + 5) = 98;
 	/* ...that prints 98\n */
 	print("a[z] = %d\n", a[2]);
