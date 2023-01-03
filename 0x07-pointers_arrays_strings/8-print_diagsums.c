@@ -1,13 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagsum - print the sum
+ * print_diagsums - print the sum
  * @a: pointer to array
  * @size: array size
  *
  * Return: void
  */
-void print_diagsum(int *a, int size)
+void print_diagsums(int *a, int size)
 {
 	int i, size1;
 	unsigned int sumDiag1, sumDiag2;
