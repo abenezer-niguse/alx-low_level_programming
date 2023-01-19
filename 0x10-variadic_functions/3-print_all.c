@@ -26,7 +26,7 @@ void print_all(const char * const format, ...)
 				printf(", ");
 				break;
 			}
-			j++
+			j++;
 		}
 		switch (format[i])
 		{
@@ -40,7 +40,7 @@ void print_all(const char * const format, ...)
 				printf("%f", va_arg(valist, double)), c = 1;
 				break;
 			case 's':
-				strb = va_arg(valist, char *), c = 1;
+				str = va_arg(valist, char *), c = 1;
 				if (!str)
 				{
 					printf("(nil)");
